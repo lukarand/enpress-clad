@@ -1,0 +1,19 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.container {
+  padding: 0;
+  @include media-breakpoint-down('md'){
+    padding: 0 20px;
+  }
+}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+ul {
+  list-style: none;
+}

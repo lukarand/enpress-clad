@@ -1,0 +1,26 @@
+.svg-icon {
+  width: 25px;
+  height: 25px;
+  path {
+    fill: none;
+    stroke: $white;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+}
+
+@each $key, $color in $theme-colors {
+  .svg-icon-#{$key} {
+    path {
+      stroke: $color;
+      fill: $color;
+    }
+  }
+}
+
+@each $key, $size in $svg-icon-size-maps {
+  .svg-icon-#{$key} {
+    width: $size;
+    height: $size;
+  }
+}

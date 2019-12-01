@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#FFF" points="3 48 43 48 43 20 3 20"/>
+    <polygon fill="#FFF" points="38 23 58 23 58 0 38 0"/>
+    <polygon fill="#FFCCCD" points="3 40 43 40 43 20"/>
+    <polygon fill="#FFCCCD" points="38 23 58 23 58 18 38 18"/>
+    <polyline stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="34 3 21 3 21 14"/>
+    <polyline stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="26 9 21 14 16 9"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(3 20)">
+      <path d="M20.5,27.7495 L20.5,35.2495"/>
+      <path d="M0.264705882,0.2495 L15.4411765,0.2495" transform="translate(12.647 35)"/>
+      <polyline points="40.735 7.75 40.735 27.75 .265 27.75 .265 .249 30.618 .249"/>
+      <path d="M0.264705882,20.2495 L40.7352941,20.2495"/>
+    </g>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M43 10L53 10M43 5L53 5M43 15L48 15"/>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="38 23 58 23 58 0 38 0"/>
+  </g>
+</svg>

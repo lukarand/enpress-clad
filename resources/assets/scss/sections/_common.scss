@@ -1,0 +1,25 @@
+
+
+.header-text {
+  max-width: 670px;
+  p {
+    margin-top: 16px;
+    font-weight: $font-weight-medium;
+  }
+}
+.now-call {
+  @include media-breakpoint-down('sm'){
+    max-width: 350px;
+  }
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  svg {
+    @include media-breakpoint-down('sm'){
+      width: 55px;
+      height: 36px;
+    }
+  }
+}

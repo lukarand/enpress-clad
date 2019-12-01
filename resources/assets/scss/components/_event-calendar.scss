@@ -1,0 +1,123 @@
+.event-calendar {
+  display: flex;
+  box-shadow: 0 2px 23px 0 #EDEDED;
+  @include media-breakpoint-down('md') {
+    flex-direction: column;
+  }
+  .event-calendar-main {
+    max-width: 100%;
+    padding: 29px 39px;
+    box-shadow: 0 2px 28px 0 #EDEDED;
+    @include media-breakpoint-up('md') {
+      min-width: 450px;
+    }
+  }
+  .event-calendar-heading {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    .title {
+      color: $danger;
+      font-size: 24px;
+      font-weight: $font-weight-bold;
+    }
+    .control {
+      display: flex;
+      .next, .prev {
+        cursor: pointer;
+        width: 26px;
+        height: 26px;
+        margin-left: 5px;
+        background-color: #F7F8FC;
+        border-radius: 26px;
+        &::before {
+          content: "";
+          color: #fff;
+          border: solid #DBDDE6;
+          border-width: 0 2px 2px 0;
+          border-radius: 0;
+          display: inline-block;
+          padding: 3px;
+        }
+      }
+
+      .next {
+        padding-left: 7px;
+        &::before {
+          transform: rotate(-45deg);
+        }
+      }
+      .prev {
+        padding-left: 10px;
+        &::before {
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+  .event-calendar-table {
+    margin-left: -10px;
+    margin-right: -10px;
+    table {
+      margin-top: 15px;
+      display: block;
+      thead {
+        display: block;
+      }
+      tr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      th, td {
+        font-weight: $font-weight-bold;
+        text-align: center;
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        span {
+          display: block;
+          width: 100%;
+          text-align: center;
+          line-height: 40px;
+        }
+      }
+
+      tbody {
+        display: block;
+        td {
+          text-align: right;
+          font-size: 15px;
+          &.disabled {
+            span {
+              color: #E1E4E7;
+            }
+          }
+          span {
+            color: #7C86A2;
+            position: relative;
+          }
+          @each $key, $value in $event-colors {
+            &.#{$key} {
+              span {
+                color: $white;
+                z-index: 1;
+                &::before {
+                  z-index: -1;
+                  position: absolute;
+                  content: "";
+                  left: 0;
+                  top: 0;
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 40px;
+                  background-color:  $value;
+                }
+              }  
+            }
+          }
+        }
+      }
+    }
+  }
+}

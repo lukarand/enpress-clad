@@ -1,0 +1,17 @@
+.section-testimonials {
+  background-size: cover;
+  background-position: center;
+  @include media-breakpoint-down('sm'){
+    background-size: 0;
+  }
+  .logo-image {
+    position: relative;
+    width: 233px;
+    height: 233px;
+    border-radius: 233px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, .2);
+  }
+  .text-content {
+    max-width: 763px;
+  }
+}

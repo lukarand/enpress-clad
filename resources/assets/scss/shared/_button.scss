@@ -1,0 +1,36 @@
+.btn {
+  min-width: 238px;
+  text-align: left;
+  position: relative;
+  font-size: $font-size-base !important;
+  font-family: GTHaptik;
+  &:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 14px;
+    right: 18px;
+    top: 50%;
+    margin-top: -7px;
+    background-image: url('../img/right-arrow-red.svg');
+    background-size: cover;
+    background-position: center;
+  }
+  &:hover {
+    background-color: $primary;
+    color: $black;
+    border: 2px solid $primary;
+    &:after{
+      background-image: url('../img/right-arrow.svg');
+    }
+  }
+}
+.btn-sm {
+  min-width: 183px;
+}
+.btn-lg {
+  min-width: 272px;
+}
+.btn-md {
+  min-width: 335px;
+}

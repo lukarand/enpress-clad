@@ -1,0 +1,22 @@
+.section-contact {
+  .contact-info {
+    @include media-breakpoint-down('sm') {
+      margin-top: -150px;
+    }
+    svg {
+      width: 48px;
+      height: 48px;
+      margin-right: 27px;
+      @include media-breakpoint-down('sm'){
+        margin-right: 18px;
+      }
+    }
+    h6 {
+      font-family: ProximaNova;
+      @include media-breakpoint-down('sm'){
+        padding-top: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+}

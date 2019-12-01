@@ -1,0 +1,55 @@
+.has-submenu {
+  @include media-breakpoint-up('lg'){
+    padding-bottom: 24px;
+    >.nav-submenu {
+      display: none;
+    }
+    &:hover {
+      >.nav-submenu {
+        display: inline-block;
+      }
+    }
+    .nav-submenu {
+      box-shadow: 0 10px 10px 0 rgba(206, 212, 218, 0.4);
+      background-color: $primary;
+      list-style: none;
+      position: absolute;
+      margin-left: -30px;
+      margin-top: 24px;
+      padding: 24px 54px 6px 32px;
+      div {
+        margin-top: -54px;
+      }
+      li {
+        margin-bottom: 16px;
+        position: relative;
+        z-index: 3;
+        a {
+          font-weight: $font-weight-bold;
+          white-space: nowrap;
+        }
+      }
+      &:after {
+        position: absolute;
+        top: -8px;
+        left: 60px;
+        content: "";
+        width: 0;
+        height: 0; 
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid theme-color('primary');
+      }
+    }
+  }
+  .nav-submenu {
+    padding-left: 24px;
+    li {
+      margin-bottom: 16px;
+      .nav-sublink {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-lg;
+      }
+    }
+  }
+}

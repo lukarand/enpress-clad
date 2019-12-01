@@ -1,0 +1,38 @@
+.tab-menu {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #EAFDFF;
+  .list-tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    white-space: normal;
+    text-align: center;
+    padding: 0 $grid-gutter-width / 3;
+    li {
+      display: inline-block;
+      @include media-breakpoint-down('sm'){
+        display: flex;
+        justify-content: center;
+      }
+      a {
+        display: block;
+        padding-top: 21px;
+        padding-bottom: 17px;
+        margin: 0 10px;
+        border-bottom: 2px solid transparent;
+        @include media-breakpoint-down('md'){
+          margin: 0 $grid-gutter-width / 6;
+        }
+        color: $info;
+        font-weight: $font-weight-medium;
+        &.active {
+            color: $black;
+            border-color: $black;
+        }
+      }
+    }
+  }
+}

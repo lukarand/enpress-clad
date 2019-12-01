@@ -1,0 +1,22 @@
+.section-calendar {
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+    @include media-breakpoint-down('md'){
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  }
+  .event-course {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    h6 {
+      margin-top: 5px;
+      opacity: 0.5;
+    }
+  }
+}

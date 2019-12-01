@@ -1,0 +1,64 @@
+.section-home-hero {
+  height: 810px;
+  @include media-breakpoint-down('xs'){
+    height: 466px;
+  }
+  background-size: cover;
+  background-position: 35%;
+  position: relative;
+  @include media-breakpoint-down('sm'){
+    background-position: right;
+  }
+  .row {
+    position: relative;
+    height: 100%;
+    align-items: center;
+    @include media-breakpoint-down('sm'){
+      align-items: initial;
+    }
+    .content {
+      max-width: 671px;
+      p {
+        max-width: 438px;
+        font-weight: $font-weight-medium;
+      }
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      bottom: 50px;
+      left: 50%;
+      width: 41px;
+      height: 20px;
+      background-image: url('../img/arrow-down.svg');
+      background-size: cover;
+      background-position: center;
+      @include media-breakpoint-down('md'){
+        display: none;
+      }
+    }
+  }
+}
+
+.section-hero {
+  background-image: url('../img/inside-hero.png');
+  background-size: cover;
+  background-position: right 100%;
+  @include media-breakpoint-down('sm'){
+    background-image: url('../img/hero-min.png');
+    background-size: cover;
+    background-position: right 100%;
+  }
+  @include media-breakpoint-down('xs'){
+    height: 398px !important;
+  }
+  h1, h3 {
+    font-family: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-weight: $font-weight-medium;
+    max-width: 502px;
+  }
+}

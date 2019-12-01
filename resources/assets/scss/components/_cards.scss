@@ -1,0 +1,87 @@
+.card-services {
+  .service-image {
+    height: 258px;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-body {
+    @include media-breakpoint-down('sm'){
+      padding: 20px 20px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+    .btn {
+      @include media-breakpoint-down('sm'){
+        min-width: 193px;
+      }
+    }
+  }
+}
+
+.card-member {
+  .member-image {
+    background-size: cover;
+    background-position: center;
+    height: 258px;
+  }
+  .card-body {
+    @include media-breakpoint-down('sm'){
+      padding: 20px;
+    }
+  }
+}
+.card-news {
+  .news-image {
+    background-size: cover;
+    background-position: center;
+    height: 258px;
+    
+  }
+  .card-body {
+    @include media-breakpoint-down('sm'){
+      padding: 20px;
+    }
+  }
+}
+.card-contact {
+  padding: 27px 29px;
+}
+.card-event {
+  position: relative;
+  .event-image {
+    background-size: cover;
+    background-position: center;
+    height: 258px;
+  }
+  .card-body {
+    padding-bottom: 60px;
+    @include media-breakpoint-down('sm'){
+      padding: 20px;
+      padding-bottom: 60px;
+      .state-title {
+        bottom: 20px;
+      }
+    }
+    .state-title {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+  .category-workshops {
+    small, .state-title {
+      color: $info;
+    }
+  }
+  .category-events {
+    small, .state-title {
+      color: $orange;
+    }
+  }
+  .category-courses {
+    small, .state-title {
+      color: $danger;
+      font-size: 16px;
+    }
+  }
+}

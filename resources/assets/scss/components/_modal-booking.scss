@@ -1,0 +1,51 @@
+.modal-booking {
+  margin-right: 0;
+  .modal-dialog {
+    padding-top: 50px;
+    .modal-body {
+      position: relative;
+      padding: 40px 52px 49px 49px;
+      @include media-breakpoint-down('md'){
+        padding: 20px;
+      }
+      .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        opacity: 1;
+        background: $danger;
+        width: 40px;
+        height: 40px;
+        div {
+          width: 15px;
+          height: 2px;
+          background: $white;
+          &:first-child {
+            transform: rotate(45deg);
+            position: absolute;
+            top: 20px;
+            left: 15px;
+          }
+          &:last-child {
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 20px;
+            left: 15px;
+          }
+        }
+      }
+      label {
+        font-weight: $font-weight-bold;
+        color: $info;
+        font-size: 18px;
+        margin-bottom: 4px;
+      }
+      input {
+        height: 48px;
+      }
+      .btn {
+        min-width: 100%;
+      }
+    }
+  }
+}

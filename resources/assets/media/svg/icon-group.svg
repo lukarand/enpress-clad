@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#FFF" points="20 28.72 20 41.12 25.003 41.12 25.003 56 35 56 35 41.12 40 41.12 40 28.72 30.003 25"/>
+    <polygon fill="#FFF" points="23 8.857 23 19.145 30.503 23 38 19.145 38 8.857 30.503 5"/>
+    <polygon fill="#FFF" points="14 26.429 10 29 6 26.429 6 22.571 10 20 14 22.571"/>
+    <polygon fill="#FFF" points="3 33.5 3 41.002 5.4 41.002 5.4 51 12.602 51 12.602 41.002 15 41.002 15 33.5 8.999 31"/>
+    <polygon fill="#FFF" points="56 26.429 52 29 48 26.429 48 22.571 52 20 56 22.571"/>
+    <polygon fill="#FFF" points="45 33.5 45 41.002 47.603 41.002 47.603 51 55.403 51 55.403 41.002 58 41.002 58 33.5 51.5 31"/>
+    <polygon fill="#FFCCCD" points="26 56 36 56 36 42 26 42"/>
+    <polygon fill="#FFCCCD" points="9 20 9 29 13 26.429 13 22.571"/>
+    <polygon fill="#FFCCCD" points="9 31 9 51 12.6 51 12.6 41 15 41 15 33.5"/>
+    <polygon fill="#FFCCCD" points="23 8.6 29.25 11 38 11 38 8.6 30.503 5"/>
+    <polygon fill="#FFCCCD" points="52 20 52 29 56 26.429 56 22.571"/>
+    <polygon fill="#FFCCCD" points="52 51 55.6 51 55.6 41 58 41 58 33.5 52 31"/>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="36 56 36 41.12 41 41.12 41 28.72 31 25 21 28.72 21 41.12 26 41.12 26 56"/>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M31,31 L31,39"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(3 4)">
+      <polygon points="35.565 14.894 28 18.684 20.435 14.894 20.435 4.789 28 .999 35.565 4.789"/>
+      <polygon points="10.348 22.473 6.565 24.999 2.783 22.473 2.783 18.684 6.565 16.157 10.348 18.684"/>
+      <polygon points="10.348 37.631 12.87 37.631 12.87 30.052 6.565 27.526 .261 30.052 .261 37.631 2.783 37.631 2.783 47.736 10.348 47.736"/>
+      <polygon points="35.565 7.315 26.739 7.315 20.435 4.789 28 .999 35.565 4.789"/>
+      <polygon points="53.217 22.473 49.435 24.999 45.652 22.473 45.652 18.684 49.435 16.157 53.217 18.684"/>
+      <polygon points="53.217 37.631 55.739 37.631 55.739 30.052 49.435 27.526 43.13 30.052 43.13 37.631 45.652 37.631 45.652 47.736 53.217 47.736"/>
+    </g>
+  </g>
+</svg>

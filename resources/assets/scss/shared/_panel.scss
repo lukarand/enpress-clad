@@ -1,0 +1,107 @@
+.service-panel {
+  .featured-image {
+    width: 100%;
+    height: 244px;
+    background-size: cover;
+    background-position: center;
+    @include media-breakpoint-down('sm'){
+      height: 146px;
+    }
+  }
+  .panel-content {
+    .panel-text {
+      font-weight: $font-weight-medium;
+    }
+    .panel-right {
+      h5 {
+        font-family: $font-family-sans-serif;
+      }
+      p {
+        margin-bottom: 4px;
+        font-weight: $font-weight-medium;
+      }
+    }
+    .btn {
+      @include media-breakpoint-down('sm'){
+        min-width: 335px;
+      }
+    }
+  }
+}
+
+.event-panel {
+  .panel-image {
+    width: 100%;
+    height: 398px;
+    background-size: cover;
+    background-position: center;
+    @include media-breakpoint-down('sm'){
+      height: 146px;
+    }
+  }
+  .event-content {
+    padding-bottom: 133px;
+    @include media-breakpoint-down('md'){
+      padding-bottom: 60px;
+    }
+    .category-type {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding-top:30px;
+      padding-bottom: 20px;
+      font-weight: $font-weight-medium;
+      margin-left: 25px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        top: 35px;
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;
+      }
+    }
+    .category-workshop {
+      &:before {
+        background-color: $info;
+      }
+    }
+    .category-event {
+      &:before {
+        background-color: $orange;
+      }
+    }
+    .category-course {
+      &:before {
+        background-color: $danger;
+      }
+    }
+    .event-left-content {
+      h4, p {
+        max-width: 580px;
+      }
+      .event-tittle {
+        font-weight: $font-weight-medium;
+        margin-bottom: 24px;
+      }
+    }
+    .event-right-content {
+      label {
+        color: $info;
+        font-weight: $font-weight-medium;
+        margin-bottom: 0;
+      }
+      p {
+        font-weight: $font-weight-medium;
+        font-size: 20px;
+      }
+    }
+    .btn {
+      @include media-breakpoint-down('sm'){
+        min-width: 335px;
+      }
+    }
+  }
+}

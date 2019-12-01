@@ -1,0 +1,55 @@
+.section-event-search {
+  padding-bottom: 96px;
+  @include media-breakpoint-down('md'){
+    padding-bottom: 56px;
+  }
+  .event-daterange {
+    width: 268px;
+    position: relative;
+    @include media-breakpoint-down('md'){
+      width: 100%;
+    }
+    input {
+      height: 48px;
+      padding-left: 40px;
+    }
+    .svg-icon {
+      position: absolute;
+      width: 19px;
+      height: 20px;
+      left: 15px;
+      bottom: 15px;
+    }
+  }
+  .location-state, .event-type {
+    width: 100%;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      bottom: 18px;
+      right: 21px;
+      width: 18px;
+      height: 9px;
+      background-image: url('../img/arrow-down.svg');
+      background-size: cover;
+      background-position: right;
+    }
+    select {
+      height: 48px;
+      &::-ms-expand {
+        display: none;
+      }
+      -webkit-appearance: none;
+      appearance: none;
+    }
+  }
+  label {
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    color: $info;
+    @include media-breakpoint-down('md'){
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#FFF" points="23.751 53.749 23.751 58.749 38.748 58.749 38.748 53.749 31.251 51.249"/>
+    <polygon fill="#FFF" points="36.25 46.249 31.25 48.749 26.25 46.249 26.25 39.999 31.25 37.499 36.25 39.999"/>
+    <polygon fill="#FFF" points="43.749 53.749 43.749 58.749 58.749 58.749 58.749 53.749 51.252 51.249"/>
+    <polygon fill="#FFF" points="56.25 46.249 51.25 48.749 46.25 46.249 46.25 39.999 51.25 37.499 56.25 39.999"/>
+    <polygon fill="#FFF" points="21.249 1.25 21.249 20.22 8.752 18.748 1.252 20.625 1.252 28.75 1.252 58.748 8.752 43.75 16.249 58.748 16.249 28.75 21.249 26.023 21.249 28.75 58.749 28.75 58.749 1.25"/>
+    <polygon fill="#FFF" points="3.75 13.749 8.75 16.25 13.75 13.749 13.75 6.25 8.75 3.749 3.75 6.25"/>
+    <polygon fill="#FFCCCD" points="21.249 28.75 58.749 28.75 58.749 1.25"/>
+    <polygon fill="#FFCCCD" points="1.251 38.749 1.251 58.749 8.751 43.751 16.248 58.749 16.248 38.749"/>
+    <polygon fill="#FFCCCD" points="36.25 46.249 36.25 39.999 31.25 37.499 31.25 48.749"/>
+    <polygon fill="#FFCCCD" points="31.25 58.749 38.75 58.749 38.75 53.749 31.25 51.249"/>
+    <polygon fill="#FFCCCD" points="56.25 46.249 56.25 39.999 51.25 37.499 51.25 48.749"/>
+    <polygon fill="#FFCCCD" points="51.251 58.749 58.751 58.749 58.751 53.749 51.251 51.249"/>
+    <polygon fill="#FFCCCD" points="13.75 7.5 3.75 9.999 3.75 6.25 8.75 3.749 13.75 6.25"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(2.5)">
+      <polyline points="18.75 13.749 18.75 1.25 56.25 1.25 56.25 28.75 26.25 28.75"/>
+      <polygon points="1.25 13.749 6.25 16.25 11.25 13.749 11.25 6.25 6.25 3.749 1.25 6.25"/>
+      <polygon points="11.25 7.5 1.25 9.999 1.25 6.25 6.25 3.749 11.25 6.25"/>
+    </g>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.75,23.7495 L8.75,31.2495"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(0 17.5)">
+      <path d="M16.25,21.2495 L1.25,21.2495"/>
+      <polyline points="1.25 3.124 8.75 1.25 30 3.749 16.25 11.249 16.25 41.249 8.75 26.25 1.25 41.249 1.25 11.249"/>
+      <polygon points="38.75 41.249 38.75 36.249 31.25 33.749 23.75 36.249 23.75 41.249"/>
+    </g>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="36.25 46.249 31.25 48.749 26.25 46.249 26.25 39.999 31.25 37.499 36.25 39.999"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(42.5 37.5)">
+      <polygon points="16.25 21.25 16.25 16.25 8.75 13.749 1.25 16.25 1.25 21.25"/>
+      <polygon points="13.75 8.749 8.75 11.249 3.75 8.749 3.75 2.499 8.75 -.001 13.75 2.499"/>
+    </g>
+  </g>
+</svg>

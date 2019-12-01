@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <polygon id="icon---desk-a" points="0 60 58.75 60 58.75 0 0 0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#FFF" points="44.499 1 40 8.501 44.499 16 53.498 16 58 8.501 53.498 1"/>
+    <polygon fill="#FFF" points="1 8 1 33.049 13.556 33.049 13.556 38.059 1 38.059 3.512 45.573 6.023 45.573 4.838 58 13.556 45.573 42.444 45.573 51.162 58 49.977 45.573 52.488 45.573 55 38.059 53.747 38.059 53.747 30.544 46.211 30.544 46.211 38.059 21.091 38.059 21.091 33.049 33.653 33.049 33.653 8"/>
+    <polygon fill="#FFF" points="5 58.117 5.072 58.117 5.087 58"/>
+    <polygon fill="#FFF" points="51.015 58.117 51.087 58.117 51 58"/>
+    <polygon fill="#FFCCCD" points="1 28 34 28 34 8"/>
+    <polygon fill="#FFCCCD" points="3 42 4.244 46 52.756 46 54 42"/>
+    <polygon fill="#FFCCCD" points="43 13.203 44.639 16 53.545 16 58 8.401 54.249 2"/>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M1 28L34 28M29 38L29 46"/>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="5 58.749 13.75 46.249 6.25 46.249 5.06 58.749"/>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="51.25 58.749 42.5 46.249 50 46.249 51.19 58.749"/>
+    <mask id="icon---desk-b" fill="#fff">
+      <use xlink:href="#icon---desk-a"/>
+    </mask>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="1.25 33.75 33.75 33.75 33.75 8.75 1.25 8.75" mask="url(#icon---desk-b)"/>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 33L21 38M14 33L14 38M13 38L23 38"/>
+    <polyline stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="49 6 49 9.37 52 11"/>
+    <polygon stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" points="46 39 54 39 54 31 46 31"/>
+    <path stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M49 31L49 26M51 31L55 26"/>
+    <g stroke="#EC2226" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(1 1)">
+      <polygon points="43.761 15.421 39.348 7.842 43.761 .263 52.587 .263 57 7.842 52.587 15.421"/>
+      <polygon points="51.957 45.736 2.783 45.736 .261 38.157 54.478 38.157"/>
+    </g>
+  </g>
+</svg>

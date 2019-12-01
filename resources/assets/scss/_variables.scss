@@ -1,0 +1,60 @@
+$container-gutter-width: 22px;
+
+$font-maps: (
+  'GTHaptikBold':                       ( family: 'GTHaptik',          file: 'GTHaptikBold',              weight: 500, style: normal ),
+  'ProximaNovaRegular':                 ( family: 'ProximaNova',       file: 'ProximaNova-Regular',       weight: 400, style: normal ),
+  'ProximaNovaMedium':                  ( family: 'ProximaNova',       file: 'ProximaNova-Semibold',      weight: 500, style: normal ),
+  'ProximaNovaBold':                    ( family: 'ProximaNova',       file: 'ProximaNova-Bold',          weight: 700, style: normal ),
+  'ProximaNovaExtrabold':               ( family: 'ProximaNova',       file: 'ProximaNova-Extrabld',      weight: 900, style: normal ),
+
+);
+
+$font-weight-maps: (
+  'normal': $font-weight-normal,
+  'extrabold': $font-weight-extrabold,
+  'medium': $font-weight-medium,
+  'bold' : $font-weight-bold,
+);
+
+$header-z-index: 1000;
+$icon-size-maps: (
+  'xl':   60px,
+  'lg':   42px,
+  'md':   36px,
+  'base': 30px,
+  'sm':   24px,
+  'xs':   18px
+);
+
+$heading-maps: (
+  'h1': ('font-size': $h1-font-size, 'letter-spacing': 0, 'line-height': 1),
+  'h2': ('font-size': $h2-font-size, 'letter-spacing': 0,'line-height': 1),
+  'h3': ('font-size': $h3-font-size, 'letter-spacing': 0, 'line-height': 1.03),
+  'h4': ('font-size': $h4-font-size, 'letter-spacing': 0, 'line-height': 0.97),
+  'h5': ('font-size': $h5-font-size, 'letter-spacing': 0, 'line-height': 1.2),
+  'h6': ('font-size': $h6-font-size, 'letter-spacing': 0, 'line-height': 1.25)
+);
+
+$heading-extended-maps: (
+  'h3': ('font-size': $h3-font-size, 'letter-spacing': 0, 'line-height': 1.03),
+  'h6': ('font-size': $h6-font-size, 'letter-spacing': 0, 'line-height': 1.25),
+);
+
+$font-size-maps: (
+  'lg': ('font-size': ($font-size-base * 1.125), 'letter-spacing': 0.5 ,'line-height': 1.39),
+  'base': ('font-size': $font-size-base),
+  'sm': ('font-size': $font-size-sm),
+);
+$svg-icon-size-maps: (
+  'sm': 25px,
+  'md': 36px,
+  'lg': 48px,
+  'xl': 60px 
+);
+
+$event-colors: (
+  'info':       #6CD9E7,
+  'success':    #01695B,
+  'danger':     #EC2226,
+  'warning':    #DEBF63
+);
